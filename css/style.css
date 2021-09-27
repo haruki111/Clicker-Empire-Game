@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+  font-size: 16px;
+  color: #ccc;
+  font-family: "游ゴシック体";
+  line-height: 1;
+}
+
+img {
+  max-width: 100%;
+}
+p {
+  margin: 0 !important;
+}
+
+/* effect */
+.hover {
+  cursor: pointer;
+}
+.hover:hover {
+  opacity: 0.9;
+}
+
+.userBorder {
+  border: 0.25rem solid #696055;
+}
+
+.btn {
+  font-size: 16px !important;
+}
+
+#play-speed {
+  display: inline-block;
+  width: 50px;
+}
+
+#right {
+  height: 60%;
+}
+#menu {
+  height: 100%;
+}
+#coalescence {
+  height: 80%;
+}
+
+.item {
+  border-bottom: 1px solid gainsboro;
+}
+.item:hover {
+  border-bottom: none;
+  border: 0.25rem solid #a0fff9;
+}
+
+.burgerImg {
+  width: 35%;
+}
+
+@media (min-width: 768px) {
+  #coalescence {
+    height: 90% !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .burgerImg {
+    width: 85%;
+  }
+  #right {
+    height: 100%;
+  }
+}
